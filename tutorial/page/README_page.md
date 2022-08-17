@@ -43,7 +43,7 @@ content: getContent() );
 
 ## Toolbar Custom Shape
 
-Create any shape of Toolbar you want in custome shape then put it at page template
+Create any shape of Toolbar you want in Custom shape then put it at page template by using parameter "toolbar"
 
 <img src="toolbar_fastor.png" height="300"/>
 
@@ -58,4 +58,93 @@ Create any shape of Toolbar you want in custome shape then put it at page templa
 ```
 
 * The Default height of toolbar is 70
-* When the toolbar you draw different than 70 you can change by this parameter "toolbar_height"
+* When the toolbar you draw different than 70 you can set height of toolbar by using "toolbar_height"
+
+## Background Feature
+
+### Asset
+
+set Image png to background, to make all content scrolling while the background image still hold at background 
+
+<img src="background_image.png" height="300"/>
+
+### Asset with Opacity
+
+<img src="background_opacity.png" height="300"/>
+
+```
+  @override
+  Widget build(BuildContext context) {
+    return PageTemplate.t( this,
+        toolbar: ToolbarSimpleFastor( context, "Page Shapes"),
+        toolbar_height : 70,
+
+        //background
+        assetBackground: const AssetImage("assets/images/background.png"),
+        assetBackgroundOpacity: 0.3,
+
+        content: getContent() );
+  }
+```
+
+### Custom Widget
+
+set Custom Widget hold at background, to make all content scrolling while the background widget still holding while scrolling
+
+<img src="background_custom.png" height="300"/>
+
+```
+  @override
+  Widget build(BuildContext context) {
+    return PageTemplate.t( this,
+        toolbar: ToolbarSimpleFastor( context, "Page Shapes"),
+        toolbar_height : 70,
+
+        //background
+         widgetBackground: CustomWidgetBackground(),
+        
+        content: getContent() );
+  }
+```
+
+## Navigation Bottom
+
+## Custom Shape Navigation
+
+<img src="navigation.png" height="300"/>
+
+set Custom Widget hold at bottom of screen to navigate between multi screens
+
+```
+  @override
+  Widget build(BuildContext context) {
+    return PageTemplate.t( this,
+
+        //toolbar
+        toolbar: ToolbarSimpleFastor( context, "Page Shapes"),
+        toolbar_height : 70,
+
+        //navigation bottom
+        navigationBottom: NavigationFastor( context, 0),
+        navigationBottom_height: 70,
+        homeButtonsBackgroundColor: HexColor(  "#1593bc"),   //color background for home buttons
+
+        content: getContent() );
+  }
+```
+
+## Change color
+
+### Color of Home Buttons Android Device
+
+By using parameter "homeButtonsBackgroundColor" you can write hexcode color 
+```
+  @override
+  Widget build(BuildContext context) {
+    return PageTemplate.t( this,
+ 
+        homeButtonsBackgroundColor: HexColor(  "#1593bc"),   //color background for home buttons
+
+        content: getContent() );
+  }
+```

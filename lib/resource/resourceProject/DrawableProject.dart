@@ -23,7 +23,7 @@ class DrawableProject {
   static AssetImage  placeholderImage  = AssetImage( "assets/images/logo_with_horizontal.png"); //logo_with_horizontal.png
 
   //background auth
-  static AssetImage backgroundAuth = AssetImage("assets/images/background_auth.jpeg");
+  static AssetImage background = AssetImage("assets/images/background.jpeg");
 
   //---------------------------------------------------------- folder : admin
 

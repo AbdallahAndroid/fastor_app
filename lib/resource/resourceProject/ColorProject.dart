@@ -6,7 +6,7 @@ class ColorProject {
   static const blueTransparent_white_sun_1 = "#5092daff";
   static const blueTransparent_fish_front = "#501593bc";
 
-  //white from scuba sun light
+  //white from fastor_app sun light
   static const white_sun_1 = "#92daff"; //dark semi to blue
   static const white_sun_2 =   "#ccedfc";  //blue light
   static const white_sun_3 = "#d0fdff";
@@ -15,14 +15,14 @@ class ColorProject {
   //white from oxygen pump
   static const white_oxygen = "#e9fdf2";
 
-  //black from scuba
+  //black from fastor_app
   static const black_1 = "#010508";
   static const black_2 = "#000002";
   static const black_3 = "#030c19";
   static const black_4 = "#02213d";
 
 
-  //blue water scuba
+  //blue water fastor_app
   static const blueCerulean_1 = "#00678a"; //darker
   static const blueCerulean_2 = "#017ca5";
   static const blueCerulean_3 = "#0D9ECD";
