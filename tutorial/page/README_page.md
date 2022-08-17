@@ -2,8 +2,8 @@
 
 ## Get Start 
 ### Full Example
-1.Create New Widget extends "StatefulWidget"
-2.inside build() make return "PageTemplate.t()"
+1. Create New Widget extends "StatefulWidget" .
+2. inside build() make return "PageTemplate.t()" .
 
 ```
 import 'package:fastor_app_ui_widget/fastor_app_ui_widget.dart';
