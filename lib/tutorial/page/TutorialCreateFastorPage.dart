@@ -23,6 +23,9 @@ class TutorialCreateFastorState extends State<TutorialCreateFastorPage> {
         toolbar: ToolbarSimpleFastor( context, "Page Shapes"),
         toolbar_height : 70,
 
+        //background
+        widgetBackground: CustomWidgetBackground(),
+
         //navigation bottom
         navigationBottom: NavigationFastor( context, 0),
         navigationBottom_height: 70,
@@ -32,7 +35,7 @@ class TutorialCreateFastorState extends State<TutorialCreateFastorPage> {
   }
 
   Widget getContent() {
-    return  TextTemplate.t( "Feature Navigation Bottom" );
+    return  TextTemplate.t( "Feature Widget PageTemplate" );
   }
 
 
