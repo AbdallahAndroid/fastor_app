@@ -31,7 +31,7 @@ class TutorialCreateFastorState extends State<TutorialCreateFastorPage> {
 
 ## Empty Screen
 
-<img src="empty.png" height="100"/>
+<img src="empty.png" height="300"/>
 
 ```
 @override
@@ -45,7 +45,7 @@ content: getContent() );
 
 Create any shape of Toolbar you want in custome shape then put it at page template
 
-<img src="toolbar_fastor.png" height="100"/>
+<img src="toolbar_fastor.png" height="300"/>
 
 ```
   @override
