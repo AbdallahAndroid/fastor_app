@@ -31,7 +31,7 @@ class TutorialCreateFastorState extends State<TutorialCreateFastorPage> {
 
 ## Empty Screen
 
-<img src="/screens/page/empty.png" height="100"/>
+<img src="empty.png" height="100"/>
 
 ```
 @override
@@ -40,3 +40,22 @@ return PageTemplate.t( this,
 content: getContent() );
 }
 ```
+
+## Toolbar Custom Shape
+
+Create any shape of Toolbar you want in custome shape then put it at page template
+
+<img src="toolbar_fastor.png" height="100"/>
+
+```
+  @override
+  Widget build(BuildContext context) {
+    return PageTemplate.t( this,
+        toolbar: ToolbarSimpleFastor( context, "Page Shapes"),
+        toolbar_height : 70,
+        content: getContent() );
+  }
+```
+
+* The Default height of toolbar is 70
+* When the toolbar you draw different than 70 you can change by this parameter "toolbar_height"
