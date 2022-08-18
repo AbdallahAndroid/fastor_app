@@ -139,7 +139,7 @@ set Custom Widget hold at bottom of screen to navigate between multi screens
 
 By using parameter "homeButtonsBackgroundColor" you can write hexcode color 
 
-<p align="center">
+<p align="left">
 <img src="color_home_1.png" height="300"/>
 <img src="color_home_2.png" height="300"/>
 </p>
