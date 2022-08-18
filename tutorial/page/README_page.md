@@ -154,3 +154,24 @@ By using parameter "homeButtonsBackgroundColor" you can write hexcode color
         content: getContent() );
   }
 ```
+
+
+### Color of Status Bar
+
+By using parameter "statusBarColorCustome" you can write hexcode color
+
+<p align="left">
+<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/page/color_statusbar_1.png" height="300"/>
+<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/page/color_statusbar_2.png" height="300"/>
+</p>
+
+```
+  @override
+  Widget build(BuildContext context) {
+    return PageTemplate.t( this,
+ 
+        statusBarColorCustome: HexColor(  "#595629"),
+
+        content: getContent() );
+  }
+```

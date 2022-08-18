@@ -29,16 +29,15 @@ class TutorialCreateFastorState extends State<TutorialCreateFastorPage> {
         // //navigation bottom
         // navigationBottom: NavigationFastor( context, 0),
         // navigationBottom_height: 70,
+        // homeButtonsBackgroundColor: HexColor(  "#660000"),
 
-        //color
-        homeButtonsBackgroundColor: HexColor(  "#660000"),
-
+        statusBarColorCustome: HexColor(  "#595629"),
 
         content: getContent() );
   }
 
   Widget getContent() {
-    return  TextTemplate.t( "Color Feature" );
+    return  TextTemplate.t( "Color Status Bar" );
   }
 
 
