@@ -5,8 +5,8 @@ class CustomWidgetBackground extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var logo  = ImageViewTemplate(context: context, widthNeeded: 75, heightNeeded: 75,
 
+    var logo  = ImageViewTemplate(context: context, widthNeeded: 75, heightNeeded: 75,
     assetBackground: AssetImage("assets/images/logo_example.png"),
     );
 

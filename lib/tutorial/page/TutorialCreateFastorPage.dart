@@ -10,6 +10,7 @@ class TutorialCreateFastorPage extends StatefulWidget {
   TutorialCreateFastorState createState() => TutorialCreateFastorState();
 
 
+
 }
 
 class TutorialCreateFastorState extends State<TutorialCreateFastorPage> {
@@ -19,25 +20,29 @@ class TutorialCreateFastorState extends State<TutorialCreateFastorPage> {
   Widget build(BuildContext context) {
     return PageTemplate.t( this,
 
-        // //toolbar
-        // toolbar: ToolbarSimpleFastor( context, "Page Shapes"),
-        // toolbar_height : 70,
-        //
-        // //background
-        // widgetBackground: CustomWidgetBackground(),
-        //
-        // //navigation bottom
-        // navigationBottom: NavigationFastor( context, 0),
-        // navigationBottom_height: 70,
-        // homeButtonsBackgroundColor: HexColor(  "#660000"),
+        //color
+        statusBarColorCustome: HexColor(  "#fc0349"),
+        homeButtonsBackgroundColor: HexColor(  "#03fcce"),
 
-        statusBarColorCustome: HexColor(  "#595629"),
+        //navigation bottom
+        navigationBottom: NavigationFastor( context, 0),
+        navigationBottom_height: 70,
+
+        //toolbar
+        toolbar:  ToolbarSimpleFastor( context, "Page Shapes"),
+        toolbar_height : 70,
+
+        //background
+        // colorBackground: Colors.red,
+        assetBackground: const AssetImage("assets/images/background.png"),
+        assetBackgroundOpacity: 0.9,
+        // widgetBackground: CustomWidgetBackground(),
 
         content: getContent() );
   }
 
   Widget getContent() {
-    return  TextTemplate.t( "Color Status Bar" );
+    return  TextTemplate.t( "Feature of PageTemplate" );
   }
 
 
