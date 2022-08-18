@@ -19,23 +19,26 @@ class TutorialCreateFastorState extends State<TutorialCreateFastorPage> {
   Widget build(BuildContext context) {
     return PageTemplate.t( this,
 
-        //toolbar
-        toolbar: ToolbarSimpleFastor( context, "Page Shapes"),
-        toolbar_height : 70,
+        // //toolbar
+        // toolbar: ToolbarSimpleFastor( context, "Page Shapes"),
+        // toolbar_height : 70,
+        //
+        // //background
+        // widgetBackground: CustomWidgetBackground(),
+        //
+        // //navigation bottom
+        // navigationBottom: NavigationFastor( context, 0),
+        // navigationBottom_height: 70,
 
-        //background
-        widgetBackground: CustomWidgetBackground(),
+        //color
+        homeButtonsBackgroundColor: HexColor(  "#660000"),
 
-        //navigation bottom
-        navigationBottom: NavigationFastor( context, 0),
-        navigationBottom_height: 70,
-        homeButtonsBackgroundColor: HexColor(  "#1593bc"),   //color background for home buttons
 
         content: getContent() );
   }
 
   Widget getContent() {
-    return  TextTemplate.t( "Feature Widget PageTemplate" );
+    return  TextTemplate.t( "Color Feature" );
   }
 
 
