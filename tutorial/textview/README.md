@@ -8,18 +8,18 @@
 ## Feature Fastor 
 * Margin without use Container
 * Padding without use Container
-* * decoration background without use Container
+* Decoration background without use Container
 * Text Align without use Style
 * Text Decoration without use Style
-* font size without use Style
-* font family without use Style
-* on tap without use GestureDetector
+* Font size without use Style
+* Font family without use Style
+* On tap without use GestureDetector
 
 ## Table Result : Percentage of code writing reduction
 
 Using Fastor widget reduce writing code by 28% chars when you compare with normal flutter widget
 
-<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/textview/text_compare.png" height="300"/>
+<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/textview/text_compare.png" width="450" height="60"/>
 
 ## Get Start 
 ### Full Example
