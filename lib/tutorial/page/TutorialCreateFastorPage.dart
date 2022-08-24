@@ -21,7 +21,7 @@ class TutorialCreateFastorState extends State<TutorialCreateFastorPage> {
     return PageTemplate.t( this,
 
         //color
-        statusBarColorCustome: HexColor(  "#fc0349"),
+        statusBarColorCustom: HexColor(  "#fc0349"),
         homeButtonsBackgroundColor: HexColor(  "#03fcce"),
 
         //navigation bottom

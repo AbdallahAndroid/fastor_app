@@ -15,7 +15,7 @@ dependencies:
 
   # library
   #https://pub.dev/packages/fastor_app_ui_widget
-  fastor_app_ui_widget: ^0.0.88
+  fastor_app_ui_widget: ^1.0.102
 
 dev_dependencies:
   flutter_test:
@@ -31,3 +31,8 @@ flutter:
   assets:
     - assets/images/
     - assets/fastor/
+
+  fonts:
+    - family: Marina Sundaland
+      fonts:
+        - asset: assets/font/fish/Marina Sundaland.otf

@@ -1,9 +1,12 @@
 import 'package:fastor_app/tutorial/page/TutorialCreateFastorPage.dart';
+import 'package:fastor_app/tutorial/textview/TutorialTextviewPage.dart';
 import 'package:fastor_app_ui_widget/resource/template/column/ColumnTemplate.dart';
 import 'package:fastor_app_ui_widget/resource/template/page/PageTemplate.dart';
 import 'package:fastor_app_ui_widget/resource/template/text/TextTemplate.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
+
 
 void main() {
   runApp(const MyApp());
@@ -36,7 +39,15 @@ class MyApp extends StatelessWidget {
 
           primarySwatch: Colors.grey,
         ),
-        home:   TutorialCreateFastorPage(),
-    );;
+        home:  nextPage(),
+    );
   }
+
+
+  Widget nextPage() {
+    //  TutorialCreateFastorPage(),
+    return TutorialTextviewPage();
+  }
+
+
 }
