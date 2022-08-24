@@ -22,7 +22,7 @@ Using Fastor widget reduce writing code by 28% chars when you compare with norma
 <img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/textview/text_compare.png" 
 width="1300" height="175"/>
 
-See source code compare between in compare below
+See source code compare between Fastor and Normal at this page
 
 ## Get Start 
 ### Full Example
