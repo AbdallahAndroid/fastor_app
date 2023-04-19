@@ -5,7 +5,8 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.16.0 <3.0.0"
+#  sdk: ">=2.16.0 <3.0.0"
+  sdk: '>=2.19.6 <3.0.0'
 
 dependencies:
   flutter:
@@ -15,13 +16,13 @@ dependencies:
 
   # library
   #https://pub.dev/packages/fastor_app_ui_widget
-  fastor_app_ui_widget: ^1.0.102
+  fastor_app_ui_widget: ^1.0.131
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^1.0.0
+  flutter_lints: ^2.0.0
 
 
 flutter:

@@ -18,7 +18,7 @@ class TutorialCreateFastorState extends State<TutorialCreateFastorPage> {
 
   @override
   Widget build(BuildContext context) {
-    return PageTemplate.t( this,
+    return PageFastor(this,
 
         //color
         statusBarColorCustom: HexColor(  "#fc0349"),

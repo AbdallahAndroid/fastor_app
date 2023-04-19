@@ -19,22 +19,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    return systemDeviceBar();
-  }
-
-  Widget systemDeviceBar() {
-    return AnnotatedRegion<SystemUiOverlayStyle>(
-        value: SystemUiOverlayStyle(
-          systemNavigationBarColor: Colors.black,
-        ),
-        child: getMaterialApp()
-    );
-  }
-
-  Widget getMaterialApp() {
     return   MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Fastor App',
+        title: 'Fastor App Tutorial',
         theme: ThemeData(
 
           primarySwatch: Colors.grey,
@@ -45,8 +32,8 @@ class MyApp extends StatelessWidget {
 
 
   Widget nextPage() {
-    //  TutorialCreateFastorPage(),
-    return TutorialTextviewPage();
+     return TutorialCreateFastorPage();
+    // return TutorialTextviewPage();
   }
 
 
