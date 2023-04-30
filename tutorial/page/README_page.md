@@ -1,7 +1,7 @@
-# Tutorial : Page Shapes
+## Tutorial : Page Shapes
 
-## Get Start 
-### Full Example
+### Get Start 
+#### Full Example
 1. Create New Widget extends "StatefulWidget" .
 2. inside build() make return "PageTemplate.t()" .
 
@@ -29,7 +29,7 @@ class TutorialCreateFastorState extends State<TutorialCreateFastorPage> {
 }
 ```
 
-## Empty Screen
+### Empty Screen
 
 <img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/page/empty.png" height="300"/>
 
@@ -41,7 +41,7 @@ content: getContent() );
 }
 ```
 
-## Toolbar Custom Shape
+### Toolbar Custom Shape
 
 Create any shape of Toolbar you want in Custom shape then put it at page template by using parameter "toolbar"
 
@@ -60,15 +60,15 @@ Create any shape of Toolbar you want in Custom shape then put it at page templat
 * The Default height of toolbar is 70
 * When the toolbar you draw different than 70 you can set height of toolbar by using "toolbar_height"
 
-## Background Feature
+### Background Feature
 
-### Asset
+#### Asset
 
 set Image png to background, to make all content scrolling while the background image still hold at background 
 
 <img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/page/background_image.png" height="300"/>
 
-### Asset with Opacity
+#### Asset with Opacity
 
 <img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/page/background_opacity.png" height="300"/>
 
@@ -87,7 +87,7 @@ set Image png to background, to make all content scrolling while the background 
   }
 ```
 
-### Custom Widget
+#### Custom Widget
 
 set Custom Widget hold at background, to make all content scrolling while the background widget still holding while scrolling
 
@@ -107,9 +107,9 @@ set Custom Widget hold at background, to make all content scrolling while the ba
   }
 ```
 
-## Navigation Bottom
+### Navigation Bottom
 
-## Custom Shape Navigation
+### Custom Shape Navigation
 
 <img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/page/navigation.png" height="300"/>
 
@@ -133,9 +133,9 @@ set Custom Widget hold at bottom of screen to navigate between multi screens
   }
 ```
 
-## Change color
+### Change color
 
-### Color of Home Buttons Android Device
+#### Color of Home Buttons Android Device
 
 By using parameter "homeButtonsBackgroundColor" you can write hexcode color 
 
@@ -156,7 +156,7 @@ By using parameter "homeButtonsBackgroundColor" you can write hexcode color
 ```
 
 
-### Color of Status Bar
+#### Color of Status Bar
 
 By using parameter "statusBarColorCustome" you can write hexcode color
 
@@ -175,3 +175,5 @@ By using parameter "statusBarColorCustome" you can write hexcode color
         content: getContent() );
   }
 ```
+
+<hr class="solid">

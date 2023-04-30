@@ -1,11 +1,11 @@
-# Tutorial : TextFastor
+## Tutorial : TextFastor
 
-## Why use Fastor widget ?
+### Why use Fastor widget ?
 
 * Reduce 28% of chars in writing code
 * Reduce 28% of lines breaks
 
-## Feature Fastor 
+### Feature Fastor 
 * Margin without use Container
 * Padding without use Container
 * Decoration background without use Container
@@ -15,7 +15,7 @@
 * Font family without use Style
 * On tap without use GestureDetector
 
-## Table Result : Percentage of code writing reduction
+### Table Result : Percentage of code writing reduction
 
 Using Fastor widget reduce writing code by 28% chars when you compare with normal flutter widget
 
@@ -24,8 +24,8 @@ width="1300" height="175"/>
 
 See source code compare between Fastor and Normal at this page
 
-## Get Start 
-### Full Example
+### Get Start 
+#### Full Example
 
 ```
     TextFastor(
@@ -50,7 +50,7 @@ See source code compare between Fastor and Normal at this page
     );
 ```
 
-## Compare Text() Normal Vs TextFastor()
+### Compare Text() Normal Vs TextFastor()
 
 <img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/textview/text_screen.png" height="300"/>
 
@@ -85,7 +85,7 @@ See source code compare between Fastor and Normal at this page
           borderRadius: BorderRadius.all(
               Radius.circular( 15 )
           ) ,
-          color: Colors.yellow                                                          //background color
+          color: Colors.yellow     //background color
       ),
       // color: Colors.green,
     ),
