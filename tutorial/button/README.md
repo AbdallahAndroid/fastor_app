@@ -10,14 +10,6 @@
 * Font family without use Style
 * On tap without use GestureDetector
 
-## Table Result : Percentage of code writing reduction
-
-Using Fastor widget reduce writing code by 28% chars when you compare with normal flutter widget
-
-<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/textview/text_compare.png" 
-width="1300" height="175"/>
-
-
 ## Get Start 
 
 See source code compare between Fastor and Normal at this page
