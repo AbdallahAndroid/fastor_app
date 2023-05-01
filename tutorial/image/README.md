@@ -1,5 +1,4 @@
-
-## Tutorial : ButtonFastor
+## Tutorial : ImageFastor
 
 ### Feature Fastor
 * Background color/image without use Container
