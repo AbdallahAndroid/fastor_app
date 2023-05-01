@@ -50,7 +50,7 @@
         margin: EdgeInsets.all( 10),
         radius_all: 25,
         boxFit_background: BoxFit.cover,
-        urlBackground: square_url_image_example,
+        urlBackground: landscape_url_image_example,
         colorBackground: Colors.amber,
         opacity: 0.7,
         onPressed: (){

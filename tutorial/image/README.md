@@ -11,7 +11,7 @@
 ### Set Image url type rectangle + Corner Radius + Background color + opacity + onPressed + margin
 
 
-<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/image/thump.png" height="300"/>
+<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/image/landscape.png" height="300"/>
 
 ```
       ImageFastor(
