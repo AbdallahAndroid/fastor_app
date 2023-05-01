@@ -8,11 +8,7 @@
 * Radius Corner for Image
 * On tap without use GestureDetector
 
-### Get Start
-
-See source code compare between Fastor and Normal at this page
-
-#### Image Square Shape + Corner Radius + Background
+### Image Square Shape + Corner Radius + Background
 
 
 <img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/image/thump.png" height="300"/>
