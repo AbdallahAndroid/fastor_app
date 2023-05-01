@@ -8,7 +8,7 @@
 * Radius Corner for Image
 * On tap without use GestureDetector
 
-### Set Image url type rectangle + Corner Radius + Background color + opacity + onPressed + margin
+### Set Image type url + Corner Radius + Background color + opacity + onPressed + margin
 
 
 <img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/image/landscape.png" height="300"/>
@@ -31,4 +31,17 @@
     }
 ``` 
 
+### Set Image type assets + Corner Radius
+
+<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/image/assets![img.png](img.png).png" height="300"/>
+
+```
+      return ImageFastor(
+        context:  context,
+        width: 300,
+        height: 600,
+        radius_all: 25,
+        assetAspectRatio:  AssetImage("assets/images/background.png"),
+      );
+```
 <hr class="solid">

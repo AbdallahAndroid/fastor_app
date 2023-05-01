@@ -33,12 +33,23 @@
         children: [
 
 
-          imageFastorShapeRectangle(),
-          TextFastor( "Set Image url type rectangle + Corner Radius + Background color + opacity + onPressed + margin",
+          imageFastorAssetPortrait(),
+          TextFastor( "Set Image type assets + Corner Radius",
             fontSize : 20, margin: EdgeInsets.all(20),),
           Placeholder( color: Colors.black, fallbackHeight: 1,),
         ],
       ));
+    }
+
+
+    Widget imageFastorAssetPortrait() {
+      return ImageFastor(
+        context:  context,
+        width: 300,
+        height: 600,
+        radius_all: 25,
+        assetAspectRatio:  AssetImage("assets/images/background.png"),
+      );
     }
 
 
