@@ -33,16 +33,27 @@
         children: [
 
 
-          imageFastorAssetPortrait(),
-          TextFastor( "Set Image type assets + Corner Radius",
+          imageFastorAutoResponsive(),
+          TextFastor( "Set Image auto-responsive between website screen and mobile screen",
             fontSize : 20, margin: EdgeInsets.all(20),),
           Placeholder( color: Colors.black, fallbackHeight: 1,),
         ],
       ));
     }
 
+    Widget imageFastorAutoResponsive() {
+      return ImageFastor(
+        context:  context,
+        width: 300,
+        height: 300,
+        radius_all: 25,
+        assetAspectRatio:  AssetImage("assets/images/logo_example.png"),
+        responsive_auto: true,
+      );
+    }
 
-    Widget imageFastorAssetPortrait() {
+
+    Widget imageFastorAsset() {
       return ImageFastor(
         context:  context,
         width: 300,
@@ -52,8 +63,7 @@
       );
     }
 
-
-    Widget imageFastorShapeRectangle() {
+    Widget imageFastorUrl() {
       return ImageFastor(
         context:  context,
         width: 278,

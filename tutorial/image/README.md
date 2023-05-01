@@ -44,4 +44,22 @@
         assetAspectRatio:  AssetImage("assets/images/background.png"),
       );
 ```
+
+### Set Image auto-responsive between website screen desktop, website screen mobile and mobile real device
+
+<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/image/responsive_web![img.png](img.png).png" height="300"/>
+<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/image/responsive_browser_mobile_screen![img.png](img.png).png" height="300"/>
+<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/image/responsive_mobile![img.png](img.png).png" height="300"/>
+
+```
+      ImageFastor(
+        context:  context,
+        width: 300,
+        height: 300,
+        radius_all: 25,
+        assetAspectRatio:  AssetImage("assets/images/logo_example.png"),
+        responsive_auto: true,
+      );
+```
+
 <hr class="solid">
