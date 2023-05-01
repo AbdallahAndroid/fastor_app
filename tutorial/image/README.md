@@ -46,9 +46,15 @@
 ```
 
 ### Set Image auto-responsive between website screen desktop, website screen mobile and mobile real device
+same code working in all platform with save the aspect ratio size of image with all screen size of any device.
 
+#### Screen Size : Website Desktop
 <img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/image/responsive_web.png" height="300"/>
+
+#### Screen Size : Website Browser Mobile Chrome
 <img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/image/responsive_browser_mobile_screen.png" height="300"/>
+
+#### Screen Size : Android Mobile
 <img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/image/responsive_mobile.png" height="300"/>
 
 ```
