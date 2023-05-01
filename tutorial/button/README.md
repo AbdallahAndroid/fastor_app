@@ -64,3 +64,5 @@ EdgeInsets.symmetric( vertical: 30),
       // color: Colors.green,
     );
 ```
+
+<hr class="solid">

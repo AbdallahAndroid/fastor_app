@@ -119,3 +119,5 @@ See source code compare between Fastor and Normal at this page
     );
   }
 ```
+
+<hr class="solid">
