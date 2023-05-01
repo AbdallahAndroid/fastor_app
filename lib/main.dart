@@ -1,4 +1,5 @@
 import 'package:fastor_app/tutorial/button/TutorialButtonScreen.dart';
+import 'package:fastor_app/tutorial/image/TutorialImageFastorScreen.dart';
 import 'package:fastor_app/tutorial/page/TutorialCreateFastorPage.dart';
 import 'package:fastor_app/tutorial/textview/TutorialTextviewPage.dart';
 import 'package:fastor_app_ui_widget/resource/template/column/ColumnTemplate.dart';
@@ -46,7 +47,8 @@ class MyApp extends StatelessWidget {
   Widget nextPage() {
     // return TutorialCreateFastorPage();
     // return TutorialTextviewPage();
-    return TutorialButtonScreen();
+    // return TutorialButtonScreen();
+    return TutorialImageFastorScreen();
   }
 
 

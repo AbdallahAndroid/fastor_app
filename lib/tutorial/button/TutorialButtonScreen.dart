@@ -9,6 +9,7 @@ class TutorialButtonScreen extends StatefulWidget {
 }
 
 class TutorialButtonState extends State<TutorialButtonScreen> {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(body: SafeArea(child: getContent()));
