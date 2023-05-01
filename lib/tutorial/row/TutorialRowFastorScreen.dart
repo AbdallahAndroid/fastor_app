@@ -22,10 +22,15 @@ class TutorialRowFastorState extends State<TutorialRowFastorScreen> {
       children: [
 
 
+
+        TextFastor( "Row Scroll Horizontal for get ride of RenderFlex overflowed by pixels",
+          fontSize : 30,
+          margin: EdgeInsets.all(30), ),
+
+       // Placeholder( color: Colors.black, fallbackHeight: 1,),
+
         rowFastorScrollHorizontal(),
-        TextFastor( "Row Scroll Horizontal for get ride from flex",
-          fontSize : 20, margin: EdgeInsets.all(20),),
-        Placeholder( color: Colors.black, fallbackHeight: 1,),
+
       ],
     ));
   }
@@ -34,7 +39,7 @@ class TutorialRowFastorState extends State<TutorialRowFastorScreen> {
   List<Widget> getChildren() {
     List<Widget> data = [];
     for( int i  = 1 ; i <= 7 ; i++ ) {
-      var w = TextFastor( "Data $i", fontSize: 15,);
+      var w = ButtonFastor( "Data $i", textFontSize: 15, (){}, margin: EdgeInsets.all(5),);
       data.add( w );
     }
     return data;
