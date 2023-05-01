@@ -33,8 +33,8 @@
         children: [
 
 
-          imageFastorShapeSquare(),
-          TextFastor( "Image Square Shape + Corner Radius + Background color",
+          imageFastorShapeRectangle(),
+          TextFastor( "Set Image url type rectangle + Corner Radius + Background color + opacity + onPressed + margin",
             fontSize : 20, margin: EdgeInsets.all(20),),
           Placeholder( color: Colors.black, fallbackHeight: 1,),
         ],
@@ -42,7 +42,7 @@
     }
 
 
-    Widget imageFastorShapeSquare() {
+    Widget imageFastorShapeRectangle() {
       return ImageFastor(
         context:  context,
         width: 278,
