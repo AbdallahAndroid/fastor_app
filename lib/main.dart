@@ -9,6 +9,8 @@ import 'package:fastor_app_ui_widget/resource/template/text/TextTemplate.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import 'tutorial/column/TutorialColumnFastorScreen.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -50,7 +52,8 @@ class MyApp extends StatelessWidget {
     // return TutorialTextviewPage();
     // return TutorialButtonScreen();
     // return TutorialImageFastorScreen();
-    return TutorialRowFastorScreen();
+    // return TutorialRowFastorScreen();
+    return TutorialColumnFastorScreen();
   }
 
 
