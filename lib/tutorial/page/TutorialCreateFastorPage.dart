@@ -42,7 +42,7 @@ class TutorialCreateFastorState extends State<TutorialCreateFastorPage> {
   }
 
   Widget getContent() {
-    return  TextTemplate.t( "Feature of PageTemplate" );
+    return  TextFastor( "Feature of PageTemplate" );
   }
 
 
