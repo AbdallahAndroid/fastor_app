@@ -20,31 +20,42 @@ class TutorialTextfieldState extends State<TutorialTextfieldPage > {
   @override
   Widget build(BuildContext context) {
     return PageFastor( this,
+        colorBackground: Colors.grey,
         statusBarColorCustom: Colors.black,
         homeButtonsBackgroundColor: Colors.black,
         //toolbar
-        toolbar:  ToolbarSimpleFastor( context, "Tutorial TextView"),
+        toolbar:  ToolbarSimpleFastor( context, "Tutorial TextField"),
         toolbar_height : 70,
         content: getContent() );
   }
 
 
   Widget getContent() {
-    return Column( children: [
+    return ColumnFastor(
+      margin: EdgeInsets.all( 30),
+      mainAxisAlignment: MainAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
 
+      TextFastor( "Enter Your Email" ),
       tf_email(),
       bt_send_otp()
     ],);
   }
 
+//----------------------------------------------------- variable validate textField
+
   var email_txt = "";
   var email_valid = AutovalidateMode.disabled;
 
+  //---------------------------------------------------------------- textfield
+
   Widget tf_email() {
-    return TextFieldTemplate.t(
+    return TextFieldStateLessFastor(
         autovalidateMode: email_valid,
-        margin: EdgeInsets.only(top: 20),
+        margin: EdgeInsets.only( top: 10 ),
         padding: EdgeInsets.all( 5),
+        background_color: Colors.white,
         validator: ValidatorTemplate.email( ),
         keyboardType: TextInputType.emailAddress,
         onChanged: (s){
@@ -54,15 +65,27 @@ class TutorialTextfieldState extends State<TutorialTextfieldPage > {
     );
   }
 
+  //---------------------------------------------------------- button validate
 
   Widget bt_send_otp() {
-    return ButtonFastor( "SEND", margin: EdgeInsets.only(top: 40), () {
-      validate();
+    var bt =  ButtonFastor( "SEND",
+        background: Colors.black,
+        textColor: Colors.white,
+        width: 200,
+        margin: EdgeInsets.only(top: 40), () {
+          if(validateEmailAfterClick())  {
+            ///TO-DO : After success success field
+          }
     });
+
+    return Container( child:  bt,
+      alignment: Alignment.center,
+      width: double.infinity,
+    );
   }
 
 
-  bool validate() {
+  bool validateEmailAfterClick() {
     var result = true; //default good
     //email
     if ( ToolsValidation.isEmail( email_txt ) == false  ){
