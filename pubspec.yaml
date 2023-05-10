@@ -16,7 +16,7 @@ dependencies:
 
   # library
   #https://pub.dev/packages/fastor_app_ui_widget
-  fastor_app_ui_widget: ^1.0.140
+  fastor_app_ui_widget: ^1.0.148
 
 dev_dependencies:
   flutter_test:
