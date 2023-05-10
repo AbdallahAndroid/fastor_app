@@ -61,7 +61,7 @@ height="300"/>
 
 * Create Widget
 ```
-    return TextFieldStateLessFastor(
+    return TextFieldFastor(
         autovalidateMode: email_valid,
         margin: EdgeInsets.only( top: 10 ),
         padding: EdgeInsets.all( 5),
@@ -109,7 +109,7 @@ height="300"/>
   //---------------------------------------------------------------- textfield
 
   Widget tf_email() {
-    return TextFieldStateLessFastor(
+    return TextFieldFastor(
         autovalidateMode: email_valid,
         margin: EdgeInsets.only( top: 10 ),
         padding: EdgeInsets.all( 5),
