@@ -2,6 +2,7 @@ import 'package:fastor_app/tutorial/button/TutorialButtonScreen.dart';
 import 'package:fastor_app/tutorial/image/TutorialImageFastorScreen.dart';
 import 'package:fastor_app/tutorial/page/TutorialCreateFastorPage.dart';
 import 'package:fastor_app/tutorial/row/TutorialRowFastorScreen.dart';
+import 'package:fastor_app/tutorial/textfield/TutorialTextfieldPage.dart';
 import 'package:fastor_app/tutorial/textview/TutorialTextviewPage.dart';
 import 'package:fastor_app_ui_widget/resource/template/column/ColumnTemplate.dart';
 import 'package:fastor_app_ui_widget/resource/template/page/PageTemplate.dart';
@@ -53,7 +54,8 @@ class MyApp extends StatelessWidget {
     // return TutorialButtonScreen();
     // return TutorialImageFastorScreen();
     // return TutorialRowFastorScreen();
-    return TutorialColumnFastorScreen();
+    // return TutorialColumnFastorScreen();
+    return TutorialTextfieldPage();
   }
 
 
