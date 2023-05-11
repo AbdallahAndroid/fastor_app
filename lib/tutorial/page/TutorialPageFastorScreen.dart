@@ -42,7 +42,6 @@ class TutorialPageFastorState extends State<TutorialPageFastorScreen> {
   }
 
   Widget getContent() {
-  //  return  TextFastor( "Scroll Content" );
     return Column( children: getLongDataForTestScroll() ,);
   }
 
