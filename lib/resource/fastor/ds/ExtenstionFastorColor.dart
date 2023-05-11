@@ -28,7 +28,7 @@ extension ExtenstionFastorColor on DesignSystemFastor {
   //+++++++++++++++++++---------------------- private
 
   static Future _statusBar( ) async{
-    StatusBarConstant.colorBackground = HexColor( ColorProject.blue_fish_front )  ;
+    StatusBarConstant.colorBackground = HexColor( ColorProject.black_1 )  ;
     StatusBarConstant.colorText_brightness = Brightness.light;
   }
 
@@ -62,7 +62,7 @@ extension ExtenstionFastorColor on DesignSystemFastor {
 
 
   static Future _homeButtonBar( ) async{
-    DSColor.homeButtons_background  =  HexColor( ColorProject.blue_fish_front );
+    DSColor.homeButtons_background  =  HexColor( ColorProject.black_1 );
   }
 
   static Future _text( ) async{

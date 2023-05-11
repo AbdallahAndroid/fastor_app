@@ -1,4 +1,5 @@
 import 'package:fastor_app/tutorial/button/TutorialButtonScreen.dart';
+import 'package:fastor_app/tutorial/checkbox/TutorialCheckboxScreen.dart';
 import 'package:fastor_app/tutorial/image/TutorialImageFastorScreen.dart';
 import 'package:fastor_app/tutorial/page/TutorialPageFastorScreen.dart';
 import 'package:fastor_app/tutorial/row/TutorialRowFastorScreen.dart';
@@ -49,13 +50,14 @@ class MyApp extends StatelessWidget {
   }
 
   Widget nextPage() {
-    return TutorialPageFastorScreen();
+    // return TutorialPageFastorScreen();
     // return TutorialTextviewPage();
     // return TutorialButtonScreen();
     // return TutorialImageFastorScreen();
     // return TutorialRowFastorScreen();
     // return TutorialColumnFastorScreen();
     // return TutorialTextfieldPage();
+    return TutorialCheckboxScreen();
   }
 
 
