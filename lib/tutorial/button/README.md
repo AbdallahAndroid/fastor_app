@@ -1,5 +1,5 @@
 
-## Tutorial : ButtonFastor
+## /lib/tutorial : ButtonFastor
 
 ### Feature Fastor
 * Margin without use Container
@@ -36,7 +36,7 @@ See source code compare between Fastor and Normal at this page
 
 ### Compare Text() Normal Vs TextFastor()
 
-<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/button/thump.png" height="300"/>
+<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master//lib/tutorial/button/thump.png" height="300"/>
 
 ```
 EdgeInsets.symmetric( vertical: 30),
