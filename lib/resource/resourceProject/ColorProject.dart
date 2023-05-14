@@ -54,4 +54,8 @@ class ColorProject {
   static const greyDark = "#d2d1d1";
 
   static const red = "#660000";
+
+  static const brown = "#5c2313";
+
+  static const green = "#40a14a";
 }

@@ -11,10 +11,14 @@ import 'package:fastor_app_ui_widget/resource/template/text/TextTemplate.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import 'resource/fastor/ds/DesignSystemFastor.dart';
 import 'tutorial/column/TutorialColumnFastorScreen.dart';
 
 
-void main() {
+void main() async {
+
+  await DesignSystemFastor.ensureInitialized();
+
   runApp(const MyApp());
 }
 

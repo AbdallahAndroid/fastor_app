@@ -56,8 +56,8 @@ extension ExtenstionFastorColor on DesignSystemFastor {
   }
 
   static Future _toolbar( ) async{
-    DSColor.ds_background_toolbar  =  HexColor( ColorProject.blue_fish_front)  ;
-    DSColor.toolbar_title =  HexColor( ColorProject.black_1)  ;
+    DSColor.ds_background_toolbar  =  HexColor( ColorProject.black_1)  ;
+    DSColor.toolbar_title =  HexColor( ColorProject.white_oxygen)  ;
   }
 
 
@@ -118,8 +118,8 @@ extension ExtenstionFastorColor on DesignSystemFastor {
 
     //+++++++++++++++++++checkbox, radio
 
-    DSColor.tap_active = HexColor( ColorProject.blueCerulean_1 );
-    DSColor.tap_inactive = HexColor( ColorProject.blueCerulean_3 );
+    DSColor.tap_active = HexColor( ColorProject.green );
+    DSColor.tap_inactive = HexColor( ColorProject.brown );
 
     //+++++++++++++++++++ switch
 
