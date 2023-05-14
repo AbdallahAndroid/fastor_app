@@ -49,7 +49,7 @@
  
 ### Get Start 
 
-<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/textfield/thump.png"
+<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/lib/tutorial/textfield/thump.png"
 height="300"/>
 
 #### Simple Example

@@ -19,7 +19,7 @@
 
 Using Fastor widget reduce writing code by 28% chars when you compare with normal flutter widget
 
-<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/textview/text_compare.png" 
+<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/lib/tutorial/textview/text_compare.png" 
 width="1300" height="175"/>
 
 See source code compare between Fastor and Normal at this page
@@ -52,7 +52,7 @@ See source code compare between Fastor and Normal at this page
 
 ### Compare Text() Normal Vs TextFastor()
 
-<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/textview/text_screen.png" height="300"/>
+<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/lib/tutorial/textview/text_screen.png" height="300"/>
 
 
 ```

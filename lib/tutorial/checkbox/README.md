@@ -1,4 +1,4 @@
-## Tutorial : CheckboxFastor
+## /lib/tutorial : CheckboxFastor
 
 ### Feature Fastor 
 + set color from constructor for active/inactive: color_inactive, color_active
@@ -7,7 +7,7 @@
  
 ### Get Start 
 
-<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/tutorial/checkbox/thump.png"
+<img src="https://raw.githubusercontent.com/AbdallahAndroid/fastor_app/master/lib/tutorial/checkbox/thump.png"
 height="300"/>
 
 #### Simple Example
