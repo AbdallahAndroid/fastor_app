@@ -20,7 +20,7 @@ class TutorialTextfieldState extends State<TutorialTextfieldPage > {
   @override
   Widget build(BuildContext context) {
     return PageFastor( this,
-        colorBackground: Colors.grey,
+        colorBackground: Colors.yellow,
         statusBarColorCustom: Colors.black,
         homeButtonsBackgroundColor: Colors.black,
         //toolbar
@@ -38,6 +38,7 @@ class TutorialTextfieldState extends State<TutorialTextfieldPage > {
       children: [
 
       TextFastor( "Enter Your Email" ),
+
       tf_email(),
       bt_send_otp()
     ],);
@@ -56,11 +57,11 @@ class TutorialTextfieldState extends State<TutorialTextfieldPage > {
         margin: EdgeInsets.only( top: 10 ),
         padding: EdgeInsets.all( 5),
         background_color: Colors.white,
-        validatorCustom: ValidatorTemplate.email( ),
+        validatorCustom: ValidatorTemplate.email(error_text: "Missed Enter Email" ),
         keyboardType: TextInputType.emailAddress,
         onChanged: (s){
           email_txt = s;
-          Log.i( "tf_email() - change s: $s ");
+         // Log.i( "tf_email() - change s: $s ");
         }
     );
   }
@@ -72,7 +73,9 @@ class TutorialTextfieldState extends State<TutorialTextfieldPage > {
         background: Colors.black,
         textColor: Colors.white,
         width: 200,
-        margin: EdgeInsets.only(top: 40), () {
+        margin: EdgeInsets.only(top: 40), ()async  {
+          bool status = await InternetTools.isConnected();
+          Log.i( "click - status: $status" );
           if(validateEmailAfterClick())  {
             ///TO-DO : After success success field
           }
@@ -97,6 +100,8 @@ class TutorialTextfieldState extends State<TutorialTextfieldPage > {
     }
     return result;
   }
+
+
 
 
 }

@@ -62,10 +62,10 @@ class MyApp extends StatelessWidget {
     // return TutorialImageFastorScreen();
     // return TutorialRowFastorScreen();
     // return TutorialColumnFastorScreen();
-    // return TutorialTextfieldPage();
+    return TutorialTextfieldPage();
     // return TutorialCheckboxScreen();
     // return TutorialRadiogroupScreen();
-    return TutorialNetworkManager();
+    // return TutorialNetworkManager();
   }
 
 
