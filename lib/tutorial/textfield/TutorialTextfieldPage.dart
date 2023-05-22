@@ -56,7 +56,7 @@ class TutorialTextfieldState extends State<TutorialTextfieldPage > {
         margin: EdgeInsets.only( top: 10 ),
         padding: EdgeInsets.all( 5),
         background_color: Colors.white,
-        validator: ValidatorTemplate.email( ),
+        validatorCustom: ValidatorTemplate.email( ),
         keyboardType: TextInputType.emailAddress,
         onChanged: (s){
           email_txt = s;

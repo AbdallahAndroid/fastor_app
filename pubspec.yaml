@@ -14,9 +14,13 @@ dependencies:
 
   cupertino_icons: ^1.0.2
 
-  # library
+  # core library
   #https://pub.dev/packages/fastor_app_ui_widget
-  fastor_app_ui_widget: ^1.0.153
+  fastor_app_ui_widget: ^1.0.178
+
+#  fastor_app_ui_widget:
+#    git:
+#      url: https://github.com/AbdallahAndroid/fastor_app_ui_widget
 
 dev_dependencies:
   flutter_test:

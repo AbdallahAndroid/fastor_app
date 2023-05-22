@@ -2,6 +2,7 @@ import 'package:fastor_app/tutorial/button/TutorialButtonScreen.dart';
 import 'package:fastor_app/tutorial/checkbox/TutorialCheckboxScreen.dart';
 import 'package:fastor_app/tutorial/image/TutorialImageFastorScreen.dart';
 import 'package:fastor_app/tutorial/page/TutorialPageFastorScreen.dart';
+import 'package:fastor_app/tutorial/radio/TutorialRadiogroupScreen.dart';
 import 'package:fastor_app/tutorial/row/TutorialRowFastorScreen.dart';
 import 'package:fastor_app/tutorial/textfield/TutorialTextfieldPage.dart';
 import 'package:fastor_app/tutorial/textview/TutorialTextviewPage.dart';
@@ -13,6 +14,7 @@ import 'package:flutter/services.dart';
 
 import 'resource/fastor/ds/DesignSystemFastor.dart';
 import 'tutorial/column/TutorialColumnFastorScreen.dart';
+import 'tutorial/network/TutorialNetworkManager.dart';
 
 
 void main() async {
@@ -61,7 +63,9 @@ class MyApp extends StatelessWidget {
     // return TutorialRowFastorScreen();
     // return TutorialColumnFastorScreen();
     // return TutorialTextfieldPage();
-    return TutorialCheckboxScreen();
+    // return TutorialCheckboxScreen();
+    // return TutorialRadiogroupScreen();
+    return TutorialNetworkManager();
   }
 
 
