@@ -1,5 +1,5 @@
 import 'package:fastor_app/resource/resourceProject/FontProject.dart';
-import 'package:fastor_app/resource/ui/toolbar/ToolbarSimpleFastor.dart';
+
 import 'package:fastor_app_ui_widget/fastor_app_ui_widget.dart';
 import 'package:fastor_app_ui_widget/resource/template/page/PageFastor.dart';
 import 'package:fastor_app_ui_widget/resource/template/text/TextFastor.dart';

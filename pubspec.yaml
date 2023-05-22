@@ -16,7 +16,7 @@ dependencies:
 
   # core library
   #https://pub.dev/packages/fastor_app_ui_widget
-  fastor_app_ui_widget: ^1.0.180
+  fastor_app_ui_widget: ^1.0.181
 
 #  fastor_app_ui_widget:
 #    git:

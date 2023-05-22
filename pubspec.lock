@@ -133,10 +133,10 @@ packages:
     dependency: "direct main"
     description:
       name: fastor_app_ui_widget
-      sha256: "7cc672a8cdc36b5aa03f3760db005ac03c1e650c240652af5cff1bf7c2ca0504"
+      sha256: "35c470131bfd20ebb98b7558d626b9a535d6dc01fe4519975309fcf8a148d9a0"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.180"
+    version: "1.0.181"
   ffi:
     dependency: transitive
     description:
