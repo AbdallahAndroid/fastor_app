@@ -6,6 +6,7 @@ import 'package:fastor_app/tutorial/radio/TutorialRadiogroupScreen.dart';
 import 'package:fastor_app/tutorial/row/TutorialRowFastorScreen.dart';
 import 'package:fastor_app/tutorial/textfield/TutorialTextfieldPage.dart';
 import 'package:fastor_app/tutorial/textview/TutorialTextviewPage.dart';
+import 'package:fastor_app_ui_widget/fastor_app_ui_widget.dart';
 import 'package:fastor_app_ui_widget/resource/template/column/ColumnTemplate.dart';
 import 'package:fastor_app_ui_widget/resource/template/page/PageTemplate.dart';
 import 'package:fastor_app_ui_widget/resource/template/text/TextTemplate.dart';
@@ -14,46 +15,37 @@ import 'package:flutter/services.dart';
 
 import 'resource/fastor/ds/DesignSystemFastor.dart';
 import 'tutorial/column/TutorialColumnFastorScreen.dart';
+import 'tutorial/decoration/TutorialDecorationPage.dart';
 import 'tutorial/network/TutorialNetworkManager.dart';
 
 
 void main() async {
-
-  await DesignSystemFastor.ensureInitialized();
-
+  WidgetsFlutterBinding.ensureInitialized();
+  await Fastor.initializeApp( );
+  DesignSystemFastor.ensureInitialized();
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return systemDeviceBar();
-  }
 
 
-  Widget systemDeviceBar() {
-    return AnnotatedRegion<SystemUiOverlayStyle>(
-        value: SystemUiOverlayStyle(
-          systemNavigationBarColor: Colors.black,
-        ),
-        child: getMaterialApp()
-    );
-  }
-
-
-  Widget getMaterialApp() {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       title: 'Fastor App Tutorial',
-      theme: ThemeData(
-        primarySwatch: Colors.grey,
-      ),
+      debugShowCheckedModeBanner: false,
+      // theme: ThemeData(
+      //   colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
+      //   useMaterial3: true,
+      // ),
       home: nextPage(),
     );
   }
+
+
 
   Widget nextPage() {
     // return TutorialPageFastorScreen();
@@ -62,10 +54,11 @@ class MyApp extends StatelessWidget {
     // return TutorialImageFastorScreen();
     // return TutorialRowFastorScreen();
     // return TutorialColumnFastorScreen();
-    return TutorialTextfieldPage();
+    // return TutorialTextfieldPage();
     // return TutorialCheckboxScreen();
     // return TutorialRadiogroupScreen();
     // return TutorialNetworkManager();
+    return TutorialDecorationPage();
   }
 
 

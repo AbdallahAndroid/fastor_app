@@ -7,19 +7,19 @@ extension ExtenstionFastorFont on DesignSystemFastor {
   void initFont(){
 
     //normal
-    DSFont.hparent = FontProject.marina;
-    DSFont.h1 = FontProject.marina;
-    DSFont.h2 = FontProject.marina; //SemiBold
-    DSFont.h3 = FontProject.marina;
-    DSFont.h4 = FontProject.marina;
+    DSFont.hparent = FontProject.cairo;
+    DSFont.h1 = FontProject.cairo;
+    DSFont.h2 = FontProject.cairo; //SemiBold
+    DSFont.h3 = FontProject.cairo;
+    DSFont.h4 = FontProject.cairo;
 
     //big title
-    DSFont.h3_title = FontProject.marina;
-    DSFont.h4_title = FontProject.marina;
+    DSFont.h3_title = FontProject.cairo;
+    DSFont.h4_title = FontProject.cairo;
 
     //button
-    DSFont.button_large = FontProject.marina;
-    DSFont.button_small = FontProject.marina;
+    DSFont.button_large = FontProject.cairo;
+    DSFont.button_small = FontProject.cairo;
   }
 
 

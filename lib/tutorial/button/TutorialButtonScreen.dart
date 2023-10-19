@@ -50,7 +50,7 @@ class TutorialButtonState extends State<TutorialButtonScreen> {
             style: TextStyle(
                 color: Colors.blue,
                 fontSize: 15,
-                fontFamily: FontProject.marina
+                fontFamily: FontProject.cairo
             ),
           )
       ),
@@ -68,7 +68,7 @@ class TutorialButtonState extends State<TutorialButtonScreen> {
       margin: EdgeInsets.symmetric( vertical: 40),
       textColor: Colors.blue,
       background: Colors.black,
-      fontFamily: FontProject.marina,
+      fontFamily: FontProject.cairo,
       textFontSize: 15,
       borderLine: Colors.blue,
       borderRadius: 15,

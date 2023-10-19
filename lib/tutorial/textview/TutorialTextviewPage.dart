@@ -47,7 +47,7 @@ class TutorialTextviewState extends State<TutorialTextviewPage > {
           decorationColor: Colors.blue,
           color: Colors.blue,
           fontSize: 25,
-          fontFamily: FontProject.marina
+          fontFamily: FontProject.cairo
       ),
     ),
       margin: EdgeInsets.all( 25 ),
@@ -75,7 +75,7 @@ class TutorialTextviewState extends State<TutorialTextviewPage > {
         textDecoration: TextDecoration.underline,
         color:  Colors.blue,
         fontSize: 25,
-        fontFamily: FontProject.marina,
+        fontFamily: FontProject.cairo,
       margin: EdgeInsets.all( 25 ),
       padding: EdgeInsets.all( 10),
       decoration: BoarderHelper.cardView(
