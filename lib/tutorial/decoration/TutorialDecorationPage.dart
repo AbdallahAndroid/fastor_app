@@ -19,23 +19,25 @@ class _tutorialState extends State<TutorialDecorationPage > {
 
   @override
   Widget build(BuildContext context) {
-    return PageFastor( this,
-        statusBarColorCustom: Colors.black,
-        homeButtonsBackgroundColor: Colors.black,
-        //toolbar
-        toolbar:  ToolbarSimpleFastor( context, "Tutorial Decoration"),
-        toolbar_height : 70,
-        content: getContent() );
+    // return PageFastor( this,
+    //     statusBarColorCustom: Colors.black,
+    //     homeButtonsBackgroundColor: Colors.black,
+    //     //toolbar
+    //     toolbar:  ToolbarSimpleFastor( context, "Tutorial Decoration"),
+    //     toolbar_height : 70,
+    //     content: getContent()
+    // );
+    return Scaffold(
+      body: SafeArea(child: getContent() ,),
+    );
   }
 
 
   Widget getContent() {
     return ColumnFastor(
-      margin: EdgeInsets.all( 30),
-      mainAxisAlignment: MainAxisAlignment.start,
-      crossAxisAlignment: CrossAxisAlignment.start,
+      margin: EdgeInsets.all( 15),
       children: [
-
+        textCustom( "Boarder Shapes"),
         shape1()
 
     ],);
@@ -43,14 +45,21 @@ class _tutorialState extends State<TutorialDecorationPage > {
 
   Widget shape1(){
     return Container(
-      child: TextFastor("Boarder Radius All by 10"),
       decoration: BoarderHelper.bottom_line(
         radiusSize: 10,
         colorBackground: Colors.blue,
-        colorLine: Colors.black
+        colorLine: Colors.red,
+        widthLine: 3
       ),
+      child: textCustom( "Boarder Colored At Bottom Line" ),
     );
   }
 
+  Widget textCustom(String title ) {
+    return TextFastor(title,
+      padding: EdgeInsets.all( 10 ),
+      margin: EdgeInsets.symmetric( vertical: 10),
+    );
+  }
 
 }
